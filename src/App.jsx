@@ -8,8 +8,8 @@ function App() {
   }
 
   return (
-    <div style={{ padding: '8px' }}>
-      <h1 style={{ margin: 0, fontFamily: 'monospace', fontWeight: 100, fontSize: 12 }}>{config.title}</h1>
+    <div style={{ padding: '8px', height: '100dvh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+      <h1 style={{ margin: 0, fontFamily: 'monospace', fontWeight: 100, fontSize: 12 }}>A starting point...</h1>
     </div>
   )
 }
